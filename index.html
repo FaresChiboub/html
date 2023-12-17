@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<nav>
+        
+        <a href="https://www.google.com" target="_blank"><button>Home</button></a>
+        <a href="https://www.google.com"><button>About</button></a>
+        <a href="https://www.google.com"><button>Work</button></a>
+        <a href="https://www.google.com"><button>Resume</button></a>
+        <a href="#contact"><button>Contact</button></a>
+</nav>
+
+<hr>
+<hr>
+<br>
+<br>
+
+<main>
+         
+<!--Video-->
+         <iframe 
+            
+            width="560" height="315" 
+            src="https://www.youtube.com/embed/u0OeZfIfBRI?si=_B1sgmVGw7W3yjZg"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+    
+          </iframe>
+<hr>
+<hr>
+<div>
+<div>
+        
+    <!--Audio-->
+         
+    <audio controls src="/audio/Background Music.mp3" type="audio/mp3"></audio>
+<hr>
+<hr>
+</main>
+
+<aside>
+<img width="200" height="180" src="/images/unnamed.png" alt="HTML Icon">
+
+</aside>
+<hr><hr>
+<section>
+ 
+    <!--Table-->
+
+<table border="1">
+ <th>A</th>
+ <th>B</th>
+ <th>C</th>
+ <th>D</th>
+
+<tr>
+    <td rowspan="2">1</td>
+    <td colspan="3">2</td>
+<tr>
+    <td>3</td>
+    <td colspan="2">4</td>
+        
+</table>
+
+    <!--Unordered List !-->
+
+    <ul type="circle">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul>
+    <hr>  
+    <!--Ordered List !-->
+
+<ol type="A">
+     <li>1</li>
+     <li>2</li>
+     <li>3</li>
+     <li>4</li>
+</ol>
+
+<hr>
+
+</section>
+                <!--Form-->
+<form action="about:blank" method="post" target="_blank">
+
+<label for="name">Full Name : </label><br>
+<input type="text" id="name" placeholder="username" required><br>
+
+
+<label for ="password">Password : </label><br>
+<input type="password" 
+id ="password"
+name="password" 
+placeholder="********" 
+pattern="(?=.*[A-Z]).{8,}" 
+title="Password must be at least 8 characters and contain at least one uppercase letter" 
+required><br>
+
+<label for ="date of birth">Date Of Birth :</label><br>
+<input type="date" id="birthdate" name="birthdate" max="2012-12-31" min="1940-12-31" required><br>
+
+<label for ="email">Email:</label><br>
+<input type="email" id="email" name="email" placeholder="username123@gmail.com" required><br>
+
+<label for ="phoneNumber">Phone Number :</label><br>
+<input type="tel" id="phoneNumber" name="phoneNumber" 
+pattern="^\+216\s[0-9]{2}\s[0-9]{3}\s[0-9]{3}$" 
+title="+216 00 123 123 "
+placeholder="(+216)"
+required> 
+<br>
+<br>
+<label for="gender">Gender: </label><br>
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender" value="male" required">
+
+<label for="female">Female</label>
+<input type="radio" id="female" name="gender" value="female" required><br><br>
+
+<label for ="Colors">Pick a Color :</label><br>
+<select id="color" name="color">
+    <option value="blue">Blue</option>
+    <option value="red">Red</option>
+    <option value="green">green</option>
+    <option value="yellow">yellow</option>
+    <option value="black">Black</option>
+</select>
+
+
+<input type="submit" value="Submit" id="btn_submit_form">
+
+</form>
+
+
+
+</aside>
+
+<footer id="contact">
+<p><mark>Lorem consectetur adipisicing elit. Repudiandae esse sapienteignissimosomnis illum?</mark></p>
+</footer>
+
+</body>
+</html>
